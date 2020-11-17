@@ -1,0 +1,48 @@
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: aqua;
+    background-image: url(images/bg-pattern-top.svg);
+     background-size: 50px;
+}
+
+.detail{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-image: url(images/bg-pattern-card.svg);
+    background-size: cover;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(241, 239, 239, 0.2);
+    background-color: #ffffff;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.name{
+    text-align: center;
+}
+.attribution {
+  font-size: 11px; text-align: center;
+}
+ 
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
